@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://weiqigo.com",
+  "auth": {
+    "email": "",
+    "password": "",
+    "username": "GoBotPlayer",
+    "token": ""
+  },
+  "mode": "create",
+  "roomUrl": "",
+  "playerName": "GoBot",
+  "boardSize": 19,
+  "timeControl": "none",
+  "engine": {
+    "type": "auto",
+    "timeBudgetMs": 2500,
+    "workers": 0,
+    "komi": 7.5,
+    "katago": {
+      "backend": "auto",
+      "binary": "",
+      "binaryOpencl": "",
+      "model": "",
+      "config": ""
+    }
+  },
+  "moveDelayMs": 250,
+  "maxMoves": 0,
+  "autoRematch": false,
+  "logChat": true
+}

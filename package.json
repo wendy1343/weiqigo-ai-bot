@@ -1,0 +1,28 @@
+{
+  "name": "weiqigo-ai-bot",
+  "version": "1.0.0",
+  "description": "AI Go (Weiqi) bot that auto-plays on WeiqiGo.com against a friend, powered by KataGo or a built-in MCTS engine",
+  "type": "commonjs",
+  "main": "bot.js",
+  "license": "MIT",
+  "keywords": [
+    "go",
+    "weiqi",
+    "baduk",
+    "katago",
+    "mcts",
+    "bot",
+    "socket.io"
+  ],
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node bot.js --register",
+    "setup-katago": "node setup-katago.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}

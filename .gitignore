@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Local npm cache (created when installing with a local cache)
+.npm-cache/
+
+# KataGo engine + neural network (large, downloaded separately by setup-katago.mjs)
+katago/eigen/
+katago/opencl/
+katago/model.bin.gz
+katago/*.zip
+katago/log/
+
+# KataGo runtime logs
+log/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.swp
